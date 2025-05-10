@@ -1,7 +1,6 @@
 import { type Request, type Response } from "express";
 import "@dotenvx/dotenvx/config";
 import { app } from "config/app";
-import { connect } from "config/mongodb";
 
 const port = process.env.PORT ?? 8000;
 
