@@ -1,0 +1,8 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "ts-node -r tsconfig-paths/register -r config/dotenvx.ts src/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
